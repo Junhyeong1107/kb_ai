@@ -18,6 +18,7 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
@@ -25,6 +26,11 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	implementation("org.mariadb.jdbc:mariadb-java-client")
+=======
+	implementation("org.springframework.boot:spring-boot-starter")
+	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+>>>>>>> 20307195d7ad93d7c8a9521b9ab3b3bc6d6d55bd
 }
 
 tasks.withType<Test> {
